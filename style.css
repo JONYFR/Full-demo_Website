@@ -1,263 +1,263 @@
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Work Sans', sans-serif;
-    }
-    
-    img {
-        max-width: 100%;
-    }
-    /* header style */
-    
-    .fote .navbar-brand {
-        font-weight: 500;
-        font-size: 25px;
-    }
-    
-    .fote span {
-        display: inline-block;
-        background: #6278DF;
-        color: #fff;
-        height: 44px;
-        width: 45px;
-        text-align: center;
-        font-size: 30px;
-        border-radius: 10px;
-        position: relative;
-        top: 2px;
-    }
-    
-    .fote-menu .nav-link {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    /* slider-section */
-    
-    .slider-section {
-        background: url(img/mbr-10.jpg) no-repeat center center;
-        padding: 200px 0;
-        position: relative;
-        z-index: 1;
-    }
-    
-    .slider-section::after {
-        content: "";
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.6);
-        z-index: -1;
-    }
-    
-    .slider-caption h4 {
-        margin-bottom: 40px;
-    }
-    
-    .slider-caption h2 {
-        margin-bottom: 50px;
-        font-size: 40px;
-    }
-    
-    .slider-caption .btn {
-        background: #5BA533;
-        padding: 10px 20px;
-        font-weight: 600;
-        font-size: 30px;
-    }
-    
-    .slider-caption .form-cotrol {
-        padding: 18px 20px;
-    }
-    
-    .number-counter .h2 {
-        font-size: 50px;
-        font-weight: 500;
-        color: #000;
-    }
-    
-    .number-counter .jene {
-        font-size: 20px;
-    }
-    /* about section */
-    
-    .about-section {
-        background: #F7F9FF;
-    }
-    
-    .amar-nam-jony {
-        margin-top: 160px;
-    }
-    
-    .amar-nam-jony .lead {
-        font-size: 20px;
-        line-height: 2.2rem;
-    }
-    /* fiture-section */
-    
-    .fiture-item {
-        height: 300px;
-        box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
-    }
-    
-    .left-img-sec {
-        width: 40%;
-        overflow: hidden;
-        border-radius: 5px 0 0 5px;
-    }
-    
-    .left-text-sec {
-        width: 60%;
-        padding: 25px;
-    }
-    
-    .left-img-sec img {
-        height: 100%;
-        width: auto !important;
-        max-width: inherit;
-        position: relative;
-        left: -80px;
-    }
-    
-    .feture-section .wood {
-        font-size: 45px;
-        font-weight: 400;
-    }
-    
-    .feture-section .natasha {
-        font-weight: 300;
-    }
-    /* portfolio hover section */
-    
-    .portfolio-items a {
-        position: relative;
-        display: block;
-    }
-    
-    .portfolio-items a::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(98, 120, 223, 0.6);
-        opacity: 0;
-        visibility: hidden;
-        transition: .4s;
-    }
-    
-    .portfolio-items:hover a::after {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .min-section-bg {
-        background-color: #e9e2f1;
-    }
-    /* prising-iteams */
-    
-    .prising-iteam {
-        background-color: #fff;
-        padding: 50px;
-        box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.4);
-        border-radius: 5px;
-    }
-    
-    .prising-iteam ul {
-        margin-left: 0;
-        padding-left: 0;
-        list-style: none;
-    }
-    
-    .prising-iteam ul li {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 20px;
-        color: #777;
-    }
-    
-    .prising-iteam ul li span {
-        font-size: 25px;
-        color: #17A2B8;
-        font-weight: bold;
-        display: inline-block;
-        width: 30px;
-    }
-    
-    .prising-iteams-button a {
-        box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.5);
-        border-color: #17A2B8;
-        border-width: 3px;
-        font-size: 22px;
-        padding: 15px 30px;
-        color: #17A2B8;
-    }
-    /* testimonial-section */
-    
-    .author-identity img {
-        width: 85px;
-        margin-right: 18px;
-    }
-    
-    .author-identity {
-        width: 220px;
-        margin: auto;
-    }
-    
-    .author-quality {
-        text-align: left;
-        position: relative;
-        top: 10px;
-    }
-    
-    span {
-        font-size: 140px;
-        color: #f0f0f0;
-    }
-    
-    .testimonial-notice h1 {
-        margin-bottom: -45px;
-    }
-    
-    .testimonial-notice p {
-        margin-top: -37px;
-    }
-    
-    .leader-seminer .card img {
-        height: auto;
-        width: 130px;
-        margin-top: -70px;
-        margin-left: 15px;
-    }
-    
-    .leader-seminer {
-        margin-top: 90px;
-    }
-    /* content-section */
-    
-    .form-control-div .card {
-        box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
-        padding: 40px;
-    }
-    /* footer section */
-    
-    .bapka-beta .rasel {
-        padding: 20px;
-    }
-    /* .app-section-py-5 .app-center {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } */
-    /* .app-section .container .apppp {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    } */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+/* header style */
+
+.fote .navbar-brand {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.fote span {
+    display: inline-block;
+    background: #6278DF;
+    color: #fff;
+    height: 44px;
+    width: 45px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.fote-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+/* slider-section */
+
+.slider-section {
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    margin-bottom: 40px;
+}
+
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.slider-caption .btn {
+    background: #5BA533;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.slider-caption .form-cotrol {
+    padding: 18px 20px;
+}
+
+.number-counter .h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #000;
+}
+
+.number-counter .jene {
+    font-size: 20px;
+}
+/* about section */
+
+.about-section {
+    background: #F7F9FF;
+}
+
+.amar-nam-jony {
+    margin-top: 160px;
+}
+
+.amar-nam-jony .lead {
+    font-size: 20px;
+    line-height: 2.2rem;
+}
+/* fiture-section */
+
+.fiture-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-text-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+.feture-section .wood {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.feture-section .natasha {
+    font-weight: 300;
+}
+/* portfolio hover section */
+
+.portfolio-items a {
+    position: relative;
+    display: block;
+}
+
+.portfolio-items a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-items:hover a::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg {
+    background-color: #e9e2f1;
+}
+/* prising-iteams */
+
+.prising-iteam {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.4);
+    border-radius: 5px;
+}
+
+.prising-iteam ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.prising-iteam ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+
+.prising-iteam ul li span {
+    font-size: 25px;
+    color: #17A2B8;
+    font-weight: bold;
+    display: inline-block;
+    width: 30px;
+}
+
+.prising-iteams-button a {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.5);
+    border-color: #17A2B8;
+    border-width: 3px;
+    font-size: 22px;
+    padding: 15px 30px;
+    color: #17A2B8;
+}
+/* testimonial-section */
+
+.author-identity img {
+    width: 85px;
+    margin-right: 18px;
+}
+
+.author-identity {
+    width: 220px;
+    margin: auto;
+}
+
+.author-quality {
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+span {
+    font-size: 140px;
+    color: #f0f0f0;
+}
+
+.testimonial-notice h1 {
+    margin-bottom: -45px;
+}
+
+.testimonial-notice p {
+    margin-top: -37px;
+}
+
+.leader-seminer .card img {
+    height: auto;
+    width: 130px;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+.leader-seminer {
+    margin-top: 90px;
+}
+/* content-section */
+
+.form-control-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 40px;
+}
+/* footer section */
+
+.bapka-beta .rasel {
+    padding: 20px;
+}
+/* .app-section-py-5 .app-center {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+} */
+/* .app-section .container .apppp {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+} */
